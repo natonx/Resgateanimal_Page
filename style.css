@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  position: fixed; 
+  top: 0;          
+  left: 0;         
+  width: 100%;     
+  background-color: #0f93ff;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+
+.logo-image {
+  max-width: 20px; 
+  margin-right: 15px; 
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #333; 
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.contato-btn {
+  background-color: #fff;
+  color: #0f93ff;
+  border: none;
+  padding: 3px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.login-btn:hover {
+  background-color: #0f93ff;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Banner1 */
+.banner img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+/* Sobre */
+.about {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h1 {
+  border: 2px solid #0f93ff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 35px;
+  color: #0f93ff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* Catálogo de animais */
+.catalog {
+  padding: 40px 20px;
+  text-align: center;
+}
+/* Estilos para o botão Adote Agora */
+.adopt-button-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.adopt-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #0f93ff;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.adopt-btn:hover {
+  background-color: #0f93ff;
+  transform: scale(1.05);
+}
+
+.catalog h2 {
+  border: 2px solid #0f93ff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #0f93ff;
+}
+
+.animal-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.animal-carousel img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Banner2 */
+.benefits img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+
+/* Vantagens da adoção */
+.benefits {
+  padding: 40px 20px;
+  text-align: center;
+}
+.warnings h1 {
+  font-size: 35px;
+  color: #0f93ff;
+  margin-bottom: 20px;
+  border: 2px solid #0f93ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.benefits h2 {
+  border: 2px solid #0f93ff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 35px;
+  color: #0f93ff;
+  margin-bottom: 20px;
+}
+
+.benefits p {
+  font-size: 25px;
+  line-height: 1.8;
+}
+
+/* cuidados */
+.warnings {
+  padding: 40px 20px;
+  
+}
+/* img caramelinho */
+.warnings img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+}
+.tittleware {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+.warnings h2 {
+  font-size: 35px;
+  color: #0f93ff;
+  margin-bottom: 20px;
+}
+.warnings li {
+  font-size: 25px;
+  line-height: 1.8;
+}
+
+.warnings p {
+  font-size: 25px;
+  line-height: 1.8;
+}
+.considera {
+  border: 2px solid rgb(8, 238, 8);
+  padding: 10px;
+  border-radius: 5px; /* Opcional: arredondar os cccntos da borda */
+  background-color: #dcffd4; /* Opcional: adicionar um fundo claro para destacar mais */
+}
+
+
+
+
+/* Formulário de cadastro com fundo */
+.contact-section {
+  background-color: #f7f7f7;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-section p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+/* Estilos para o formulário de contato */
+.contact-form-container { 
+  border: 2px solid #0f93ff;
+  padding: 10px;
+  border-radius: 5px; /* Opcional: arredondar os cantos da borda */
+  background-color: ff6blackf61; 
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form-container form {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-container label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+  
+  border-color: #0f93ff;
+  outline: none;
+}
+
+.contact-form-container .submit-btn {
+  
+  padding: 15px;
+  background-color: #0f93ff;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form-container .submit-btn:hover {
+  background-color: #0f93ff;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
